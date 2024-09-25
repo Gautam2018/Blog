@@ -22,10 +22,10 @@ class AdminController extends Controller
 
 
     public function blogs(){
-        return "blogs";
+        return view('admin.blogs.showBlogs');
     }
 
     public function addBlogs(){
-        return "add blogs";
+        return view('admin.blogs.addBlogs');
     }
 }
