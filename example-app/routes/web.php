@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AppController;
+use App\Http\Controllers\Admin\AdminController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -25,4 +27,10 @@ Route::get('/contact-us',[AppController::class,'contactus'])->name('contact-us')
 
 Route::get('/blogs',[AppController::class,'blogs'])->name('blogs');
 Route::get('/blog/{slug}',[AppController::class,'blog'])->name('blog');
+
+## Admin routes
+Route::group(['prefix' => 'admin'], function (){
+    Route::get('dashbord',[AdminController::class,'dashbord']);
+    Route::get('catogries',[AdminController::class,'catogries']);
+});
 

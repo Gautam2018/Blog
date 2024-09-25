@@ -17,7 +17,7 @@
         <hr class="tm-hr-primary">
         <a href="post.html" class="effect-lily tm-post-link tm-pt-60">
             <div class="tm-post-link-inner">
-                <img src="img/img-01.jpg" alt="Image" class="img-fluid">                            
+                <img src="{{asset('img/img-01.jpg')}}" alt="Image" class="img-fluid">                            
             </div>
             <span class="position-absolute tm-new-badge">New</span>
             <h2 class="tm-pt-30 tm-color-primary tm-post-title">Simple and useful HTML layout</h2>
@@ -40,7 +40,7 @@
         <hr class="tm-hr-primary">
         <a href="post.html" class="effect-lily tm-post-link tm-pt-60">
             <div class=" tm-post-link-inner">
-                <img src="img/img-02.jpg" alt="Image" class="img-fluid">                            
+                <img src="{{asset('img/img-02.jpg')}}" alt="Image" class="img-fluid">                            
             </div>
             <span class="position-absolute tm-new-badge">New</span>
             <h2 class="tm-pt-30 tm-color-primary tm-post-title">Multi-purpose blog template</h2>
@@ -63,7 +63,7 @@
         <hr class="tm-hr-primary">
         <a href="post.html" class="effect-lily tm-post-link tm-pt-20">
             <div class="tm-post-link-inner">
-                <img src="img/img-03.jpg" alt="Image" class="img-fluid">
+                <img src="{{asset('img/img-03.jpg')}}" alt="Image" class="img-fluid">
             </div>
             <h2 class="tm-pt-30 tm-color-primary tm-post-title">How can you apply Xtra Blog</h2>
         </a>                    
@@ -85,7 +85,7 @@
         <hr class="tm-hr-primary">
         <a href="post.html" class="effect-lily tm-post-link tm-pt-20">
             <div class="tm-post-link-inner">
-                <img src="img/img-04.jpg" alt="Image" class="img-fluid">
+                <img src="{{asset('img/img-04.jpg')}}" alt="Image" class="img-fluid">
             </div>
             <h2 class="tm-pt-30 tm-color-primary tm-post-title">A little restriction to apply</h2>
         </a>                    
@@ -107,7 +107,7 @@
         <hr class="tm-hr-primary">
         <a href="post.html" class="effect-lily tm-post-link tm-pt-20">
             <div class="tm-post-link-inner">
-                <img src="img/img-05.jpg" alt="Image" class="img-fluid">
+                <img src="{{asset('img/img-05.jpg')}}" alt="Image" class="img-fluid">
             </div>
             <h2 class="tm-pt-30 tm-color-primary tm-post-title">Color hexa values of Xtra Blog</h2>
         </a>                    
@@ -131,7 +131,7 @@
         <hr class="tm-hr-primary">
         <a href="post.html" class="effect-lily tm-post-link tm-pt-20">
             <div class="tm-post-link-inner">
-                <img src="img/img-06.jpg" alt="Image" class="img-fluid">
+                <img src="{{asset('img/img-06.jpg')}}" alt="Image" class="img-fluid">
             </div>
             <h2 class="tm-pt-30 tm-color-primary tm-post-title">Donec convallis varius risus</h2>
         </a>                    

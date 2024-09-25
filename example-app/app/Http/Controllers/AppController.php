@@ -16,13 +16,15 @@ class AppController extends Controller
     ##aboutus page
     public function aboutus(){
         
-        return 'Hell aboutus';
+        return view('aboutus');
+        
     }
 
     ##contactus page
     public function contactus(){
         
-        return 'Hell contactus';
+        return view('contactus');
+        
     }
 
     ##blogs page
@@ -34,6 +36,6 @@ class AppController extends Controller
     ##blogs page
     public function blog($slug){
         
-        return 'Hell blog';
+        return view('singleblog');
     }
 }
