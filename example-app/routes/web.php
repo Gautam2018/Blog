@@ -30,7 +30,15 @@ Route::get('/blog/{slug}',[AppController::class,'blog'])->name('blog');
 
 ## Admin routes
 Route::group(['prefix' => 'admin'], function (){
-    Route::get('dashbord',[AdminController::class,'dashbord']);
-    Route::get('catogries',[AdminController::class,'catogries']);
+    Route::get('dashbord',[AdminController::class,'dashbord'])->name('dashbord');
+    
+    
+    
+    Route::get('catogries',[AdminController::class,'catogries'])->name('catogries');
+    Route::get('addCatogries',[AdminController::class,'addCatogries'])->name('add-catogries');
+
+
+    Route::get('blogs',[AdminController::class,'blogs'])->name('blogs');
+    Route::get('addBlogs',[AdminController::class,'addBlogs'])->name('add-blogs');
 });
 

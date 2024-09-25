@@ -8,11 +8,24 @@ use Illuminate\Http\Request;
 class AdminController extends Controller
 {
     public function dashbord(){
-        return view('layout.admin-app');
+        return view('admin.dashbord');
     }
 
 
     public function catogries(){
-        return "catogries";
+        return view('admin.catgories.showCategories');
+    }
+
+    public function addCatogries(){
+        return view('admin.catgories.add');
+    }
+
+
+    public function blogs(){
+        return "blogs";
+    }
+
+    public function addBlogs(){
+        return "add blogs";
     }
 }
